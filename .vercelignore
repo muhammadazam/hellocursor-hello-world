@@ -1,0 +1,4 @@
+# Do not upload local environment files when using `vercel deploy` from this folder.
+# Production secrets belong in Vercel → Project → Settings → Environment Variables.
+.env*
+!.env.example
